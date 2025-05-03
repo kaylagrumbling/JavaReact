@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import ProductList from "./components/ProductList";
 import './styles/App.css'; 
 
+// This is the main application component. It manages the state of the product list and renders the ProductList component with the product data.
+// The product data is hardcoded in the state for demonstration purposes, but in a real application, it could be fetched from an API or a database.
 function App() {
   
   const [products] = useState([

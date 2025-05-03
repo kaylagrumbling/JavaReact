@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/ProductItem.css";
 
+// This component represents a single product item in the product list.
+// It receives product data as props and displays the product's name, price, and description.
 function ProductItem({ product }) {
   
   return (
